@@ -86,7 +86,7 @@ describe("CoursesService", () =>{
   // });
 
 
-  it('should find a list of lessons', function () {
+  it('finds a list of lessons', function () {
     coursesService.findLessons(12).subscribe({
       next: lessons => {
         expect(lessons).toBeTruthy();

@@ -24,7 +24,7 @@ describe('CalculatorService', () => {
   it('add two numbers', () => {
     console.log("add test");
     const result = calculator.add(2,2);
-    expect(result).toBe(4);
+    expect(result).toBe(4)
   })
 
   it('subtract two numbers', () => {
